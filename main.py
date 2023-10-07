@@ -1,13 +1,9 @@
 from telethon.sync import TelegramClient, events
 from collections import OrderedDict
 
-api_id = 23195655
-api_hash = '3dfeae8b2dcf5680f377346232702e4f'
+api_id = 0
+api_hash = '0'
 client = TelegramClient('anon', api_id, api_hash)
-#681542404
-#6067597781 2059695882 mois
-#usernames_to_send = [729712277, 6067597781, 681542404]
-usernames_to_send = [6067597781, 729712277, 681542404]
 
 messages_db = OrderedDict()
 
